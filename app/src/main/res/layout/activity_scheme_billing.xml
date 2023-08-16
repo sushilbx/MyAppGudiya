@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".scheme_billingActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/eva_arrow_ios_back_outline__1_"
+        app:title="Scheme Billing" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="30dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_bg"
+                    android:drawablePadding="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:hint="costomer code:"
+                    android:paddingHorizontal="10dp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:layout_gravity="end"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rectangle_3201"
+                    android:src="@drawable/vector__3_"/>
+
+            </FrameLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:drawableEnd="@drawable/vector__3_"
+                android:drawablePadding="10dp"
+                android:elevation="10dp"
+                android:hint="Name:"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:drawablePadding="10dp"
+                android:elevation="10dp"
+                android:hint="Mobile No.:"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:drawablePadding="10dp"
+                android:elevation="10dp"
+                android:hint="place:"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:drawablePadding="10dp"
+                android:elevation="10dp"
+                android:hint="Month:"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:drawablePadding="10dp"
+                android:elevation="10dp"
+                android:hint="Previus:"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:drawablePadding="10dp"
+                android:elevation="10dp"
+                android:hint="Bill No.:"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:drawablePadding="10dp"
+                android:elevation="10dp"
+                android:hint="Bill No.:"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_bg"
+                android:drawablePadding="10dp"
+                android:elevation="10dp"
+                android:hint="Bill No.:"
+                android:paddingHorizontal="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginVertical="40dp"
+                android:backgroundTint="#393185"
+                android:text="print"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
