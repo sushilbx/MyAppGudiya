@@ -5,20 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".drshbordActivity">
+    tools:context=".DashboardActivity">
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:navigationIcon="@drawable/menu"
         app:title="Welcome User!!" />
 
     <ImageView
+        android:id="@+id/ivAddBulk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/banar" />
 
     <TextView
+        android:id="@+id/tvSchemeBilling"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
@@ -32,6 +35,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tvResetBill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
@@ -44,10 +48,13 @@
         android:textSize="30dp"
         android:textStyle="bold" />
     <ImageView
+        android:id="@+id/ivAdministration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/rect"
         android:layout_marginTop="20dp"/>
+
+
 
 
 </LinearLayout>

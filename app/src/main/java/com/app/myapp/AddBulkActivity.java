@@ -1,14 +1,13 @@
 package com.app.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class drshbordActivity extends AppCompatActivity {
+public class AddBulkActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_drshbord);
+        setContentView(R.layout.activity_add_bulk);
     }
 }

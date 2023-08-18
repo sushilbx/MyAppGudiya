@@ -13,27 +13,42 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31" >
         <activity
-            android:name=".scheme_billingActivity"
+            android:name=".AddBulkActivity"
             android:exported="false" />
         <activity
-            android:name=".drshbordActivity"
+            android:name=".ResetBillNoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdministrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SchemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.MyApp" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApp" >
+
         </activity>
     </application>
 
