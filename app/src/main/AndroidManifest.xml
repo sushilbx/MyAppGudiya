@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".accountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrpfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".SigninActivity"
             android:exported="false" />
         <activity
@@ -49,7 +55,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.MyApp"></activity>
+            android:theme="@style/Theme.MyApp" />
     </application>
 
 </manifest>
